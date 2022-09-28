@@ -1,0 +1,17 @@
+<div id="show_coin_container">
+  <p id="notice"><%= notice %></p>
+  <%= render "coin_info" %>
+  <p>
+    <strong>Description:</strong>
+    <%= @coin.description %>
+  </p>
+
+  <p>
+    <strong>Acronym:</strong>
+    <%= @coin.acronym %>
+  </p>
+  <div>
+    <%= link_to 'Edit', edit_coin_path(@coin) %> |
+    <%= link_to 'Back', coins_path %>
+  </div>
+</div>
