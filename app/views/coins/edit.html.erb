@@ -1,12 +1,12 @@
 <div id="show_coin_container">
-    <h1>Editing <%= @coin.description %></h1>
+    <h1>Editando <%= @coin.description %></h1>
 
     <%= render "coin_info" %>
 
     <%= render 'form', coin: @coin %>
 
     <div>
-        <%= link_to 'Show', @coin %> |
-        <%= link_to 'Back', coins_path %>
+        <%= link_to 'Visualizar', @coin %> |
+        <%= link_to 'Voltar', coins_path %>
     </div>
 </div>
