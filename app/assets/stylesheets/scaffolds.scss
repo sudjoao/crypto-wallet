@@ -18,17 +18,30 @@ h1{
   margin: 1rem 0;
 }
 
+
 a {
-  color: #000;
+  background-color: #9379c2;
+  border: none;
+  min-width: 10rem;
+  text-align: center;
+  box-shadow: none;
+  border-radius: 1rem;
+  padding: 1rem;
+  color: white;
+  font-size: 1rem;
+  text-decoration: none;
+  margin: 0.5rem 0;
+  font-weight: 500;
 
-  &:visited {
-    color: #666;
+  &.secondary{
+    background-color: white;
+    color: #9379c2;
   }
 
-  &:hover {
-    color: #fff;
-    background-color: #000;
+  &:hover{
+    cursor: pointer;
   }
+
 }
 
 th {

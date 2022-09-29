@@ -10,8 +10,6 @@
     <strong>Sigla:</strong>
     <%= @coin.acronym %>
   </p>
-  <div>
-    <%= link_to 'Editar', edit_coin_path(@coin) %> |
-    <%= link_to 'Voltar', coins_path %>
-  </div>
+  <%= link_to 'Editar', edit_coin_path(@coin) %>
+  <%= link_to 'Voltar', coins_path %>
 </div>
