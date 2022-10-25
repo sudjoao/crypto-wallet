@@ -1,6 +1,6 @@
 module ApplicationHelper
-    def locale(locale)
+    def locale
         locales = {:en => "Inglês", "pt-BR": "Português do Brasil"}
-        locales[locale]
+        locales[I18n.locale]
     end
 end
